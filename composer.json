@@ -1,13 +1,25 @@
 {
-    "name": "laravel/laravel",
+    "name": "theothernic/sputnikapp",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/bearlovescode/datamodels.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/bearlovescode/bluesky.git"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.0",
-        "laravel/tinker": "^2.9"
+        "laravel/tinker": "^2.9",
+        "bearlovescode/datamodels": "^1.1.0",
+        "bearlovescode/bluesky": "^1.1.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

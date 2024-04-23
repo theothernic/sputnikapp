@@ -4,8 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da9b7a1dc1dd923105198c572cc7df8d",
+    "content-hash": "236c559f22921b65f2169529aa53afaf",
     "packages": [
+        {
+            "name": "bearlovescode/bluesky",
+            "version": "1.1.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bearlovescode/bluesky.git",
+                "reference": "e29ed9d65a3c04712b31360e7d6af3b4399d3e85"
+            },
+            "require": {
+                "bearlovescode/datamodels": "^1.1.0",
+                "guzzlehttp/guzzle": "^7.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bearlovescode\\Bluesky\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Nic Barr",
+                    "email": "code@bearlovescode.com"
+                }
+            ],
+            "time": "2024-02-01T20:32:17+00:00"
+        },
+        {
+            "name": "bearlovescode/datamodels",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bearlovescode/datamodels.git",
+                "reference": "fcb8d1fd970fa89d516b5e765c3459e70df3c3ae"
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bearlovescode\\Datamodels\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Nic Barr",
+                    "email": "code@bearlovescode.com"
+                }
+            ],
+            "time": "2024-03-08T12:57:21+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.11.0",
